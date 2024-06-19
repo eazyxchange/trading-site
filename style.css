@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;}
+ 
+ 
+/* button{
+    background-color: black;
+    width: 80px;
+    height: 40px;
+} */
+
+h1{
+    font-family: "Sedan SC", serif;
+    color:#010066;
+}
+
+h2{
+    color:#010066;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.h1{
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    }
+
+.logo-name{
+    display: flex;
+    align-items: center;
+}
+
+.e-logo{
+    width: 90px;
+}
+
+.a{
+    display: flex;
+    gap: 10px;
+    padding-right:10px;
+}
+
+.hero-section{
+    background-color: brown;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandname{
+color: rgb(181, 190, 234);
+font-size: 50px;
+font-weight: bold;
+font-family: "Sedan SC", serif;
+}
+
+.brand-tag{
+    text-align: right;
+    font-style: italic;
+    color: rgb(203, 200, 200);
+}
+.c{
+    text-align: center;
+    position: relative;
+    
+}
+
+#h3{
+ position: absolute;
+ top: -60px;
+}
+.img-txt{
+    padding: 20px;
+   
+}
+.eazy{
+    display: flex;
+    width: 200px;
+    float: left;
+    padding: 20px 20px 0 20px;
+    border-radius: 20%;
+}
+
+.abt-txt{
+    text-align: justify;
+}
+
+.d{
+    background-color: rgb(232, 222, 222);
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+h1 a{
+    font-size: 15px;
+    
+}
+
+#h4{
+    padding: 20px;
+    color:#010066;
+}
+
+@media (max-width: 420px){
+    .a{
+        position: fixed;
+        bottom: 0px;
+        color: blue;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+        gap:20px;
+        background-color: grey;
+    }
+
+    a{
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: white ;
+        background-color: black;
+    }
+
+    .d{
+        padding-bottom: 60px;
+    }
+}
